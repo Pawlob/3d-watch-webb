@@ -252,15 +252,7 @@ export function ScrollCanvas({
             );
           })}
 
-          {/* Interactive 3D Hotspots & Annotations Overlay Pins */}
-          <HotspotsOverlay3D
-            hotspots={hotspots}
-            activeSectionIndex={activeSectionIndex}
-            isEditMode={isEditMode}
-            selectedHotspotId={selectedHotspotId}
-            onSelectHotspot={onSelectHotspot}
-            onUpdateHotspot={onUpdateHotspot}
-          />
+          
 
           <Environment preset={environmentPreset} />
         </Suspense>
