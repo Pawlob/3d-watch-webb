@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cobalt-600: #2563eb;
+  --color-cobalt-500: #3b82f6;
+  --color-cobalt-400: #60a5fa;
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748b;
+  --color-slate-400: #94a3b8;
+  --color-slate-300: #cbd5e1;
+  --color-slate-100: #f1f5f9;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+/* Dark & Light Theme Utility Classes */
+.editor-theme-dark {
+  --editor-bg-chrome: #0f172a;
+  --editor-bg-surface: #0f172a;
+  --editor-bg-elevated: #1e293b;
+  --editor-bg-canvas: #020617;
+  --editor-border: #1e293b;
+  --editor-border-subtle: #334155;
+  --editor-text-main: #f1f5f9;
+  --editor-text-muted: #94a3b8;
+  --editor-text-subtle: #64748b;
+  color-scheme: dark;
+}
+
+.editor-theme-light {
+  --editor-bg-chrome: #ffffff;
+  --editor-bg-surface: #f8fafc;
+  --editor-bg-elevated: #f1f5f9;
+  --editor-bg-canvas: #e2e8f0;
+  --editor-border: #e2e8f0;
+  --editor-border-subtle: #cbd5e1;
+  --editor-text-main: #0f172a;
+  --editor-text-muted: #475569;
+  --editor-text-subtle: #64748b;
+  color-scheme: light;
+}
+
+/* Precision Control Inputs */
+.input-cobalt {
+  font-size: 0.75rem;
+  height: 1.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.375rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.editor-theme-dark .input-cobalt {
+  background-color: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(51, 65, 85, 0.6);
+  color: #f1f5f9;
+}
+.editor-theme-dark .input-cobalt:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.3);
+}
+
+.editor-theme-light .input-cobalt {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+}
+.editor-theme-light .input-cobalt:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.25);
+}
+
+/* Canvas Dot Background */
+.editor-theme-dark .bg-canvas-dots {
+  background-color: #020617;
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.editor-theme-light .bg-canvas-dots {
+  background-color: #f1f5f9;
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+

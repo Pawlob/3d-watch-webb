@@ -1,0 +1,314 @@
+{
+  "siteTitle": "New 3D Project - Interactive 3D Experience",
+  "brandName": "New 3D Project",
+  "navLinks": [
+    {
+      "label": "Hero Intro",
+      "href": "#section-0"
+    },
+    {
+      "label": "Product Details",
+      "href": "#section-1"
+    },
+    {
+      "label": "Call to Action",
+      "href": "#section-2"
+    },
+    {
+      "label": "Specs & Tech",
+      "href": "#section-3"
+    },
+    {
+      "label": "Conclusion",
+      "href": "#section-4"
+    }
+  ],
+  "headerCtaText": "Get Started",
+  "headerCtaLink": "#section-4",
+  "environmentPreset": "studio",
+  "ambientIntensity": 0.8,
+  "lightIntensity": 1.2,
+  "activeModelId": "model-1792570904245",
+  "sections": [
+    {
+      "id": "section-0",
+      "name": "Hero Intro",
+      "badge": "Interactive 3D Website",
+      "title": "Crafted In Motion",
+      "subtitle": "Welcome to your new 3D project. Scroll to preview smooth camera angles and interactive transitions.",
+      "ctaText": "Get Started",
+      "ctaLink": "#section-1",
+      "layout": "center",
+      "theme": "midnight",
+      "titleSize": 8,
+      "titleColor": "#ffffff",
+      "textColor": "#94a3b8",
+      "titleX": 0,
+      "titleY": 4,
+      "modelTransform": {
+        "scale": 68,
+        "position": [
+          0,
+          -3.3,
+          -0.5
+        ],
+        "rotation": [
+          0,
+          3.14,
+          0
+        ]
+      },
+      "modelTransforms": {
+        "model-2": {
+          "scale": 2,
+          "position": [
+            0,
+            -0.3,
+            -1.55
+          ],
+          "rotation": [
+            0,
+            4.642575810304916,
+            0
+          ]
+        }
+      },
+      "modelVisibilities": {
+        "model-2": true
+      },
+      "modelAnimations": {},
+      "textAlign": "center"
+    },
+    {
+      "id": "section-1",
+      "name": "Product Details",
+      "badge": "Feature Showcase",
+      "title": "Every Angle Explored",
+      "subtitle": "Add custom 3D models (.glb, .gltf, .obj), upload fonts, configure colors, and orchestrate animations.",
+      "ctaText": "Learn More",
+      "ctaLink": "#section-2",
+      "layout": "left-text",
+      "theme": "midnight",
+      "titleSize": 6,
+      "titleColor": "#38bdf8",
+      "textColor": "#94a3b8",
+      "titleX": 0,
+      "titleY": 0,
+      "modelTransform": {
+        "scale": 85,
+        "position": [
+          1.7,
+          -3,
+          0
+        ],
+        "rotation": [
+          -0.2,
+          1.8,
+          0.2
+        ]
+      },
+      "specs": [
+        {
+          "label": "Precision",
+          "value": "Real-time",
+          "detail": "Instant WebGL rendering"
+        },
+        {
+          "label": "Responsive",
+          "value": "Desktop & Mobile",
+          "detail": "Fluid responsive layout"
+        },
+        {
+          "label": "Assets",
+          "value": "3D & Fonts",
+          "detail": "Drop-in custom uploads"
+        }
+      ],
+      "modelTransforms": {
+        "model-2": {
+          "scale": 1,
+          "position": [
+            -0.06,
+            -1.1,
+            -0.15
+          ],
+          "rotation": [
+            0.767944870877505,
+            0.47123889803846897,
+            -0.5934119456780721
+          ]
+        }
+      },
+      "modelVisibilities": {
+        "model-2": true
+      },
+      "modelAnimations": {}
+    },
+    {
+      "id": "section-2",
+      "name": "Call to Action",
+      "badge": "Final Showcase",
+      "title": "Ready for the World",
+      "subtitle": "Export clean React code or publish your interactive 3D landing page instantly.",
+      "ctaText": "Launch Project",
+      "ctaLink": "#section-0",
+      "layout": "center",
+      "theme": "midnight",
+      "titleSize": 7,
+      "titleColor": "#a855f7",
+      "textColor": "#cbd5e1",
+      "titleX": 0,
+      "titleY": 0,
+      "modelTransform": {
+        "scale": 72,
+        "position": [
+          0,
+          -3.4,
+          -0.4
+        ],
+        "rotation": [
+          0.25,
+          -0.6,
+          0.1
+        ]
+      },
+      "modelTransforms": {
+        "model-2": {
+          "scale": 1,
+          "position": [
+            2.1778071482940147e-27,
+            -1.3,
+            -0.55
+          ],
+          "rotation": [
+            -0.017453292519943295,
+            0.5410520681182421,
+            1.5882496193148399
+          ]
+        }
+      },
+      "modelVisibilities": {
+        "model-2": true
+      },
+      "modelAnimations": {}
+    },
+    {
+      "id": "section-3",
+      "name": "Specs & Tech",
+      "badge": "Technical Architecture",
+      "title": "Engineered for Performance",
+      "subtitle": "Ultra-fast frame rates powered by Three.js and hardware-accelerated shaders.",
+      "ctaText": "View Architecture",
+      "ctaLink": "#section-0",
+      "layout": "right-text",
+      "theme": "midnight",
+      "titleSize": 6,
+      "titleColor": "#34d399",
+      "textColor": "#94a3b8",
+      "titleX": 0,
+      "titleY": 0,
+      "modelTransform": {
+        "scale": 90,
+        "position": [
+          -1.6,
+          -3.1,
+          0.1
+        ],
+        "rotation": [
+          -0.3,
+          -1.2,
+          0.1
+        ]
+      },
+      "modelTransforms": {
+        "model-2": {
+          "scale": 79,
+          "position": [
+            0.3999999999999999,
+            -3.1,
+            -0.5499999999999999
+          ],
+          "rotation": [
+            -0.3,
+            -1.65,
+            0.1
+          ]
+        }
+      },
+      "modelVisibilities": {
+        "model-2": true
+      },
+      "modelAnimations": {}
+    },
+    {
+      "id": "section-4",
+      "name": "Conclusion",
+      "badge": "Join The Evolution",
+      "title": "Build the Future",
+      "subtitle": "Connect with our team to explore tailored implementations and custom integrations.",
+      "ctaText": "Get in Touch",
+      "ctaLink": "#section-0",
+      "layout": "center",
+      "theme": "midnight",
+      "titleSize": 7,
+      "titleColor": "#38bdf8",
+      "textColor": "#94a3b8",
+      "titleX": 0,
+      "titleY": 0,
+      "modelTransform": {
+        "scale": 70,
+        "position": [
+          0,
+          -3.3,
+          -0.5
+        ],
+        "rotation": [
+          0,
+          3.14,
+          0
+        ]
+      },
+      "modelTransforms": {
+        "model-2": {
+          "scale": 62,
+          "position": [
+            2,
+            -3.3,
+            -0.6499999999999999
+          ],
+          "rotation": [
+            0,
+            3.5900000000000003,
+            0
+          ]
+        }
+      },
+      "modelVisibilities": {
+        "model-2": true
+      },
+      "modelAnimations": {}
+    }
+  ],
+  "sceneModels": [
+    {
+      "id": "model-2",
+      "name": "Model 2",
+      "modelAssetId": "model-1792570904245",
+      "colorTag": "#a855f7"
+    }
+  ],
+  "activeEditingModelId": "model-2",
+  "customModels": [
+    {
+      "id": "model-1792570904245",
+      "name": "apple_watch_series_7_-_free_watch-face_sdctm",
+      "fileName": "apple_watch_series_7_-_free_watch-face_sdctm.glb",
+      "type": "glb",
+      "url": "/models/apple_watch_series_7_-_free_watch-face_sdctm.glb",
+      "fileSize": 8119492,
+      "autoNormalizeScale": true,
+      "source": "upload",
+      "description": "Uploaded apple_watch_series_7_-_free_watch-face_sdctm.glb (7.74 MB)"
+    }
+  ]
+}
