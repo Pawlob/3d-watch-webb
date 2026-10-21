@@ -3,7 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Environment, Html } from '@react-three/drei';
 import * as THREE from 'three';
 import { DynamicModel } from './DynamicModel';
-import { HotspotsOverlay3D } from './HotspotsOverlay3D';
 import {
   ModelTransform,
   SectionKeyframe,
